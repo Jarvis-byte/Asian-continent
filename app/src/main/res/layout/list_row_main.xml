@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:padding="@dimen/cardview_default_elevation"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#212121"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Name"
+                android:textColor="#fff"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:id="@+id/textName"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Capital"
+                android:textColor="#fff"
+                android:id="@+id/textCapital"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Region"
+                android:textColor="#fff"
+                android:id="@+id/textRegion"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subregion"
+                android:textColor="#fff"
+                android:id="@+id/textSubRegion"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Population"
+                android:textColor="#fff"
+                android:id="@+id/textPopulation"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bordars"
+                android:textColor="#fff"
+                android:id="@+id/textBorders"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Languages"
+                android:textColor="#fff"
+                android:id="@+id/textLanguages"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                android:id="@+id/flags"
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete"
+                android:layout_marginStart="180dp"
+                android:src="@drawable/ic_delete"
+
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
